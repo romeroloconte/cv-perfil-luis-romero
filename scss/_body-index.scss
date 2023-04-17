@@ -1,0 +1,23 @@
+@import "colors";
+@import "fonts";
+
+* {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#body-index, #html-index {
+    background:$bg-black;
+    font-family:$principal-font, 'Inter';
+    width: 1440px;
+    height: auto;
+
+}
+
+.img-principal{margin-left: 15%;
+margin-top: 11%;
+width: 60%;}

@@ -1,0 +1,31 @@
+@import "colors";
+
+nav{background-color: transparent;}
+
+.nav-link{color:$color-link;
+margin-right: 42.45px;
+font-weight: 400;
+}
+
+.nav-link:hover{color:$color-link;
+    font-weight: 600;
+    }
+
+.navbar-nav .nav-link.active {
+    color: $color-link;
+    font-weight: bold;
+    border-bottom: 2px solid $color-link;
+}
+
+.nav-link.nav-content{color:black
+}
+
+.nav-link.nav-content:hover{color:$bg-black;
+    font-weight: 600;
+    }
+
+.navbar-nav.nav-content .nav-link.active {
+    color: $bg-black;
+    font-weight: bold;
+    border-bottom: 2px solid $bg-black;
+}

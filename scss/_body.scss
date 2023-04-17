@@ -1,0 +1,135 @@
+@import "colors";
+@import "fonts";
+
+
+body, html {
+    background:$bg-black;
+    font-family:$principal-font, 'Inter';
+    height: 100%
+
+}
+
+.side-bar{height: 100%;
+
+}
+
+
+a:link {
+    color: $color-link;
+    text-decoration: none; 
+}
+
+.profile-photo{margin-bottom: 8%;}
+
+.contact{font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color:$color-link;
+    margin-left: 18%;
+
+}
+
+hr {width: 329px;
+    color: white;
+    margin-left: 10%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+h1{margin-top: 10%;
+    margin-left: 4%;
+    font-family: $principal-font;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 40px;
+    color:$bg-black;
+}
+
+h4{margin-left: 4%;
+    font-family: $principal-font;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 40px;
+}
+
+.about{margin-left: 5%;
+    margin-top: 5%;
+}
+
+h3{font-family: $principal-font;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 40px;
+    margin-left: 4%;
+    margin-top: 10%;
+}
+
+.title-skills{width:98.69px;
+    height: 29.61px;
+    background: $bg-black;
+    border-radius: 56.3934px;
+    margin-top: 5%;
+    margin-left: 12%;
+
+        p{font-family: $principal-font;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 9.86885px;
+            line-height: 28px;
+            color: white;
+        }
+}
+
+.skills{width:98.69px;
+    height: 29.61px;
+    background:white;
+    border: 0.704918px solid #070707;
+    border-radius: 56.3934px;
+    margin-top: 5%;
+    margin-left: 12%;
+
+        p{font-family: $principal-font;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 9.86885px;
+            line-height: 28px;
+            color: $bg-black;
+        }
+}
+
+.margin{margin-bottom: 30%;}
+
+.experiencia{ margin-top: 10%;}
+
+#experiencia{margin-left: 5%;}
+
+.experiencia h5{font-weight: bolder;}
+
+a{text-decoration: none;
+color: #070707;}
+
+.p-bold{font-weight:600;
+} 
+
+.port p{font-size: 12px;
+margin-bottom: 0;
+font-family: 'Helvetica Now Display';
+font-style: normal;
+font-weight: 700;
+line-height: 26px;
+
+}
+
+.port a{font-size: 12px;
+    font-family: 'Helvetica Now Display';
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0.02em;
+    color: #7F7F7F;
+}
+
+.vercel{width: 48.5%;}
