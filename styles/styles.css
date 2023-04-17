@@ -207,4 +207,28 @@ a {
 
 .vercel {
   width: 48.5%;
+}
+
+.btn-descarga {
+  width: 98.69px;
+  height: 29.61px;
+  background: #070707;
+  border: 1px solid #FFFFFF;
+  border-radius: 56.3934px;
+  margin-left: 18%;
+  margin-top: 12%;
+}
+.btn-descarga a {
+  color: #FFFFFF;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+}
+
+.btn-descarga:hover {
+  background: #FFFFFF;
+}
+.btn-descarga:hover a {
+  color: #070707;
 }/*# sourceMappingURL=styles.css.map */
