@@ -19,7 +19,7 @@
 }
 
 .about-me {
-  font-family: "Helvetica Now Display";
+  font-family: "Helvetica Now Display", "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -32,7 +32,7 @@
 }
 
 .tools li {
-  font-family: "Helvetica Now Display";
+  font-family: "Helvetica Now Display", "inter";
   font-style: normal;
   font-weight: 500;
   font-size: 14.7616px;
@@ -130,7 +130,7 @@ hr {
 h1 {
   margin-top: 10%;
   margin-left: 4%;
-  font-family: "Helvetica Now Display";
+  font-family: "Helvetica Now Display", "Inter";
   font-style: normal;
   font-weight: 800;
   font-size: 48px;
@@ -152,7 +152,7 @@ h4 {
 }
 
 h3 {
-  font-family: "Helvetica Now Display";
+  font-family: "Helvetica Now Display", "Inter";
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -162,7 +162,7 @@ h3 {
 }
 
 h6 {
-  font-family: "Helvetica Now Display";
+  font-family: "Helvetica Now Display", "Inter";
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -172,7 +172,7 @@ h6 {
 }
 
 .skills p {
-  font-family: "Helvetica Now Display";
+  font-family: "Helvetica Now Display", "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -209,7 +209,7 @@ a {
 .port p {
   font-size: 12px;
   margin-bottom: 0;
-  font-family: "Helvetica Now Display";
+  font-family: "Helvetica Now Display", "Inter";
   font-style: normal;
   font-weight: 700;
   line-height: 26px;
@@ -217,7 +217,7 @@ a {
 
 .port a {
   font-size: 12px;
-  font-family: "Helvetica Now Display";
+  font-family: "Helvetica Now Display", "Inter";
   font-style: normal;
   font-weight: 700;
   line-height: 18px;
@@ -251,7 +251,7 @@ a {
 }
 
 .casos h6 {
-  font-family: "Helvetica Now Display";
+  font-family: "Helvetica Now Display", "Inter";
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
@@ -261,7 +261,7 @@ a {
 }
 
 .casos p {
-  font-family: "Helvetica Now Display";
+  font-family: "Helvetica Now Display", "Inter";
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -275,7 +275,7 @@ a {
 }
 
 .portfolio, a {
-  font-family: "Helvetica Now Display";
+  font-family: "Helvetica Now Display", "Inter";
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -285,7 +285,7 @@ a {
 }
 
 .portfolio p {
-  font-family: "Helvetica Now Display";
+  font-family: "Helvetica Now Display", "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -295,7 +295,7 @@ a {
 }
 
 .click {
-  font-family: "Helvetica Now Display";
+  font-family: "Helvetica Now Display", "Inter";
   font-style: normal;
   font-weight: 700;
   font-size: 12px;
@@ -308,7 +308,7 @@ a {
   margin-top: 12%;
 }
 .metodologias h6 {
-  font-family: "Helvetica Now Display";
+  font-family: "Helvetica Now Display", "Inter";
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
@@ -318,7 +318,7 @@ a {
   margin-bottom: 5%;
 }
 .metodologias p {
-  font-family: "Helvetica Now Display";
+  font-family: "Helvetica Now Display", "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -332,7 +332,7 @@ a {
 }
 
 .mas-proy h5 {
-  font-family: "Helvetica Now Display";
+  font-family: "Helvetica Now Display", "Inter";
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
@@ -342,7 +342,7 @@ a {
 }
 
 .mas-proy a {
-  font-family: "Helvetica Now Display";
+  font-family: "Helvetica Now Display", "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -356,7 +356,7 @@ a {
 }
 
 .hola {
-  font-family: "Helvetica Now Display";
+  font-family: "Helvetica Now Display", "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
