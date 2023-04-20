@@ -8,16 +8,61 @@
 }
 
 #body-index, #html-index {
-  background: #070707;
+  background: #0D0D0D;
   font-family: "Helvetica Now Display", "Inter";
   width: 1440px;
   height: auto;
 }
 
 .img-principal {
-  margin-left: 15%;
-  margin-top: 11%;
-  width: 60%;
+  margin-left: 8%;
+  margin-top: 3%;
+}
+
+.about-me {
+  font-family: "Helvetica Now Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.04em;
+  color: #BABABA;
+  position: absolute;
+  top: 80%;
+  margin-left: 5%;
+}
+
+.tools li {
+  font-family: "Helvetica Now Display";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14.7616px;
+  line-height: 28px;
+  letter-spacing: 0.04em;
+  color: #BABABA;
+  list-style: none;
+}
+
+.tools {
+  margin-top: 15%;
+}
+
+.contact li {
+  list-style: none;
+  display: inline-block;
+}
+
+.contact {
+  margin-left: 12%;
+  margin-top: 5%;
+}
+
+.contact a {
+  font-family: "Inter";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #BABABA;
 }
 
 nav {
@@ -46,18 +91,32 @@ nav {
 }
 
 .nav-link.nav-content:hover {
-  color: #070707;
+  color: #0D0D0D;
   font-weight: 600;
 }
 
 .navbar-nav.nav-content .nav-link.active {
-  color: #070707;
+  color: #0D0D0D;
   font-weight: bold;
-  border-bottom: 2px solid #070707;
+  border-bottom: 2px solid #0D0D0D;
+}
+
+.navbar-brand {
+  font-family: "Helvetica Now Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 40px;
+  color: #A2A2A2;
+  width: 153px;
+}
+
+.navbar-brand:hover {
+  display: none;
 }
 
 body, html {
-  background: #070707;
+  background: #0D0D0D;
   font-family: "Helvetica Now Display", "Inter";
   height: 100%;
 }
@@ -73,15 +132,6 @@ a:link {
 
 .profile-photo {
   margin-bottom: 8%;
-}
-
-.contact {
-  font-family: "Inter";
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 26px;
-  color: #A2A2A2;
-  margin-left: 18%;
 }
 
 hr {
@@ -100,7 +150,7 @@ h1 {
   font-weight: 800;
   font-size: 48px;
   line-height: 40px;
-  color: #070707;
+  color: #0D0D0D;
 }
 
 h4 {
@@ -126,39 +176,24 @@ h3 {
   margin-top: 10%;
 }
 
-.title-skills {
-  width: 98.69px;
-  height: 29.61px;
-  background: #070707;
-  border-radius: 56.3934px;
-  margin-top: 5%;
-  margin-left: 12%;
-}
-.title-skills p {
+h6 {
   font-family: "Helvetica Now Display";
   font-style: normal;
   font-weight: 700;
-  font-size: 9.86885px;
+  font-size: 18px;
   line-height: 28px;
-  color: white;
+  letter-spacing: 0.04em;
+  color: #3F3F3F;
 }
 
-.skills {
-  width: 98.69px;
-  height: 29.61px;
-  background: white;
-  border: 0.704918px solid #070707;
-  border-radius: 56.3934px;
-  margin-top: 5%;
-  margin-left: 12%;
-}
 .skills p {
   font-family: "Helvetica Now Display";
   font-style: normal;
-  font-weight: 700;
-  font-size: 9.86885px;
-  line-height: 28px;
-  color: #070707;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0.04em;
+  color: #BABABA;
 }
 
 .margin {
@@ -210,25 +245,128 @@ a {
 }
 
 .btn-descarga {
-  width: 98.69px;
-  height: 29.61px;
-  background: #070707;
-  border: 1px solid #FFFFFF;
-  border-radius: 56.3934px;
-  margin-left: 18%;
-  margin-top: 12%;
+  width: 145px;
+  height: 39px;
+  background: #A2A2A2;
+  border-radius: 74.2857px;
 }
 .btn-descarga a {
-  color: #FFFFFF;
-  font-size: 10px;
+  color: #0D0D0D;
+  font-size: 16px;
   font-style: normal;
   font-weight: 700;
-  line-height: 28px;
+  line-height: 37px;
 }
 
 .btn-descarga:hover {
   background: #FFFFFF;
 }
 .btn-descarga:hover a {
-  color: #070707;
+  color: #0D0D0D;
+}
+
+.casos h6 {
+  font-family: "Helvetica Now Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: 0.02em;
+  color: #BABABA;
+}
+
+.casos p {
+  font-family: "Helvetica Now Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.02em;
+  color: #BABABA;
+}
+
+.casos {
+  margin-bottom: 8%;
+}
+
+.portfolio, a {
+  font-family: "Helvetica Now Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.04em;
+  color: #BABABA;
+}
+
+.portfolio p {
+  font-family: "Helvetica Now Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.04em;
+  color: #BABABA;
+}
+
+.click {
+  font-family: "Helvetica Now Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0.02em;
+  color: #7F7F7F;
+}
+
+.metodologias {
+  margin-top: 12%;
+}
+.metodologias h6 {
+  font-family: "Helvetica Now Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: 0.02em;
+  color: #BABABA;
+  margin-bottom: 5%;
+}
+.metodologias p {
+  font-family: "Helvetica Now Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.04em;
+  color: #BABABA;
+}
+
+.metodologias-row {
+  margin-bottom: 8%;
+}
+
+.mas-proy h5 {
+  font-family: "Helvetica Now Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  color: #BABABA;
+  margin-bottom: 2%;
+}
+
+.mas-proy a {
+  font-family: "Helvetica Now Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.04em;
+  color: #BABABA;
+}
+
+.mas-proy {
+  margin-bottom: 10%;
+  margin-left: 8%;
 }/*# sourceMappingURL=styles.css.map */
