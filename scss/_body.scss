@@ -21,14 +21,7 @@ a:link {
 
 .profile-photo{margin-bottom: 8%;}
 
-.contact{font-family: 'Inter';
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 26px;
-    color:$color-link;
-    margin-left: 18%;
 
-}
 
 hr {width: 329px;
     color: white;
@@ -67,38 +60,24 @@ h3{font-family: $principal-font;
     margin-top: 10%;
 }
 
-.title-skills{width:98.69px;
-    height: 29.61px;
-    background: $bg-black;
-    border-radius: 56.3934px;
-    margin-top: 5%;
-    margin-left: 12%;
 
-        p{font-family: $principal-font;
-            font-style: normal;
-            font-weight: 700;
-            font-size: 9.86885px;
-            line-height: 28px;
-            color: white;
-        }
+
+h6{font-family: 'Helvetica Now Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.04em;
+color: #3F3F3F;
 }
 
-.skills{width:98.69px;
-    height: 29.61px;
-    background:white;
-    border: 0.704918px solid #070707;
-    border-radius: 56.3934px;
-    margin-top: 5%;
-    margin-left: 12%;
-
-        p{font-family: $principal-font;
-            font-style: normal;
-            font-weight: 700;
-            font-size: 9.86885px;
-            line-height: 28px;
-            color: $bg-black;
-        }
-}
+.skills p{font-family: 'Helvetica Now Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.04em;
+    color: #BABABA;}
 
 .margin{margin-bottom: 30%;}
 
@@ -134,18 +113,15 @@ line-height: 26px;
 
 .vercel{width: 48.5%;}
 
-.btn-descarga{width: 98.69px;
-    height: 29.61px;
-    background: #070707;
-    border: 1px solid #FFFFFF;
-    border-radius: 56.3934px;
-    margin-left: 18%;
-    margin-top: 12%;
-        a{color: #FFFFFF;
-    font-size: 10px;
+.btn-descarga{width: 145px;
+    height: 39px;
+    background: #A2A2A2;
+    border-radius: 74.2857px;
+        a{color: #0D0D0D;
+    font-size: 16px;
     font-style: normal;
     font-weight: 700;
-    line-height: 28px;
+    line-height: 37px;
     
 
 
@@ -153,7 +129,97 @@ line-height: 26px;
 }
 
 .btn-descarga:hover{background: #FFFFFF;
-    a{color: #070707 ;
+    a{color: #0D0D0D ;
 
     }
 }
+
+.casos h6{font-family: 'Helvetica Now Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: 0.02em;
+    color: #BABABA;
+}
+.casos p{font-family: 'Helvetica Now Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.02em;
+    color: #BABABA;}
+
+.casos{margin-bottom: 8%;
+}
+
+.portfolio,a{font-family: 'Helvetica Now Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.04em;
+    color: #BABABA;
+    }
+
+.portfolio p{font-family: 'Helvetica Now Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.04em;
+    color: #BABABA;
+    }
+
+
+.click {font-family: 'Helvetica Now Display';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 18px;
+letter-spacing: 0.02em;
+color: #7F7F7F;
+}
+
+.metodologias{margin-top: 12%;
+    h6{font-family: 'Helvetica Now Display';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 26px;
+        letter-spacing: 0.02em;
+        color: #BABABA;
+        margin-bottom: 5%;
+        }
+    p{font-family: 'Helvetica Now Display';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 28px;
+        letter-spacing: 0.04em;
+        color: #BABABA;
+        }
+}
+
+.metodologias-row{margin-bottom: 8%;}
+
+.mas-proy h5{font-family: 'Helvetica Now Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    color: #BABABA;
+    margin-bottom: 2%;
+    }
+
+.mas-proy a{font-family: 'Helvetica Now Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.04em;
+    color: #BABABA;
+}
+
+.mas-proy{margin-bottom: 10%;
+margin-left: 8%;}
