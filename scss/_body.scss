@@ -13,6 +13,8 @@ body, html {
 
 }
 
+.img-media{display: none;}
+
 
 a:link {
     color: $color-link;
@@ -222,4 +224,58 @@ color: #7F7F7F;
 }
 
 .mas-proy{margin-bottom: 10%;
-margin-left: 8%;}
+}
+
+.hola{font-family: 'Helvetica Now Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #BABABA;}
+
+
+
+//mediaQuery//
+
+@media (min-width: 320px) and (max-width: 990px) {
+
+.img-principal{display: none;}
+
+.img-media{display: block;}
+
+.about-me{position: static;
+    margin-top: 15%;
+    margin-left: 3%;
+
+}
+
+#body-index, #html-index{width: auto;
+height: auto;}
+
+.navbar-nav .nav-link.active {
+    color: $color-link;
+    font-weight: bold;
+    border-bottom: 2px solid $color-link;
+    width: 40%;
+}
+
+.metodologias-row{margin-bottom: 30%;}
+
+}
+
+
+
+
+@media (min-width: 300px) and (max-width: 850px){
+    .contact{flex-direction: column;
+   
+    
+    a{margin-bottom: 5%;
+       
+
+    }
+}
+
+}
