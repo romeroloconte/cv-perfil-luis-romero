@@ -43,7 +43,8 @@
 }
 
 .tools {
-  margin-top: 15%;
+  margin-top: 8%;
+  margin-bottom: 10%;
 }
 
 nav {
@@ -241,6 +242,7 @@ a {
   font-style: normal;
   font-weight: 700;
   line-height: 37px;
+  font-family: "Helvetica Now Display", "inter";
 }
 
 .btn-descarga:hover {
@@ -364,6 +366,7 @@ a {
   text-align: center;
   letter-spacing: 0.04em;
   color: #BABABA;
+  margin-bottom: 5%;
 }
 
 @media (min-width: 320px) and (max-width: 990px) {
@@ -388,11 +391,13 @@ a {
     border-bottom: 2px solid #A2A2A2;
     width: 40%;
   }
-  .metodologias-row {
-    margin-bottom: 30%;
+  .hola p {
+    text-align: left;
+    margin-left: 8%;
   }
-}
-@media (min-width: 300px) and (max-width: 850px) {
+  .mobile-no {
+    display: none;
+  }
   .contact {
     flex-direction: column;
   }

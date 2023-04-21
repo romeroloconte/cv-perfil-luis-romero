@@ -124,6 +124,7 @@ line-height: 26px;
     font-style: normal;
     font-weight: 700;
     line-height: 37px;
+    font-family: 'Helvetica Now Display', 'inter';
     
 
 
@@ -233,7 +234,8 @@ color: #7F7F7F;
     line-height: 14px;
     text-align: center;
     letter-spacing: 0.04em;
-    color: #BABABA;}
+    color: #BABABA;
+margin-bottom: 5%;}
 
 
 
@@ -261,20 +263,15 @@ height: auto;}
     width: 40%;
 }
 
-.metodologias-row{margin-bottom: 30%;}
-
-}
 
 
+.hola  p{text-align: left;
+    margin-left: 8%;}
 
+.mobile-no{display: none;}
 
-@media (min-width: 300px) and (max-width: 850px){
-    .contact{flex-direction: column;
-   
-    
-    a{margin-bottom: 5%;
-       
-
+.contact{flex-direction: column;
+   a{margin-bottom: 5%;
     }
 }
 
