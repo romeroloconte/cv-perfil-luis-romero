@@ -5,7 +5,7 @@
 body, html {
     background:$bg-black;
     font-family:$principal-font, 'Inter';
-    height: 100%
+    height: auto;
 
 }
 
@@ -222,9 +222,11 @@ color: #7F7F7F;
     line-height: 20px;
     letter-spacing: 0.04em;
     color: #BABABA;
+    margin-bottom: 30%;
 }
 
 .mas-proy{margin-bottom: 10%;
+    padding-bottom: 100px;
 }
 
 .hola{font-family: 'Helvetica Now Display', 'Inter';
@@ -274,5 +276,7 @@ height: auto;}
    a{margin-bottom: 5%;
     }
 }
+
+
 
 }

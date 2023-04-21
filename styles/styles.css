@@ -100,7 +100,7 @@ nav {
 body, html {
   background: #0D0D0D;
   font-family: "Helvetica Now Display", "Inter";
-  height: 100%;
+  height: auto;
 }
 
 .side-bar {
@@ -351,10 +351,12 @@ a {
   line-height: 20px;
   letter-spacing: 0.04em;
   color: #BABABA;
+  margin-bottom: 30%;
 }
 
 .mas-proy {
   margin-bottom: 10%;
+  padding-bottom: 100px;
 }
 
 .hola {
