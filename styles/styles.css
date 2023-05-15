@@ -371,6 +371,10 @@ a {
   margin-bottom: 5%;
 }
 
+.margin-tec {
+  margin-top: 10%;
+}
+
 @media (min-width: 320px) and (max-width: 990px) {
   .img-principal {
     display: none;
