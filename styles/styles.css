@@ -9,7 +9,7 @@
 
 #body-index, #html-index {
   background: #0D0D0D;
-  font-family: "Helvetica Now Display", "Inter";
+  font-family: "Inter";
   height: auto;
 }
 
@@ -18,32 +18,25 @@
 }
 
 .about-me {
-  font-family: "Helvetica Now Display", "Inter";
+  font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 28px;
-  letter-spacing: 0.04em;
   color: #BABABA;
 }
 
 .ux-icon {
-  margin-top: 25%;
   width: 631.01px;
   height: 58.5px;
 }
 
-.skills-m {
-  margin-left: 10%;
-}
-
 .tools li {
-  font-family: "Helvetica Now Display", "inter";
+  font-family: "inter";
   font-style: normal;
   font-weight: 500;
   font-size: 14.7616px;
   line-height: 28px;
-  letter-spacing: 0.04em;
   color: #BABABA;
   list-style: none;
 }
@@ -51,6 +44,27 @@
 .tools {
   margin-top: 8%;
   margin-bottom: 10%;
+}
+
+.color-span {
+  background: linear-gradient(111.19deg, #BB62F1 13.97%, #EE4B60 83.79%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: bold;
+}
+
+.hola-index {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 100%;
+  color: #A2A2A2;
+}
+
+.contenedor-skills {
+  margin-top: 10%;
 }
 
 nav {
@@ -90,7 +104,7 @@ nav {
 }
 
 .navbar-brand {
-  font-family: "Helvetica Now Display", "Inter";
+  font-family: "Inter";
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -105,7 +119,7 @@ nav {
 
 body, html {
   background: #0D0D0D;
-  font-family: "Helvetica Now Display", "Inter";
+  font-family: "Inter";
   height: auto;
 }
 
@@ -137,7 +151,7 @@ hr {
 h1 {
   margin-top: 10%;
   margin-left: 4%;
-  font-family: "Helvetica Now Display", "Inter";
+  font-family: "Inter";
   font-style: normal;
   font-weight: 800;
   font-size: 48px;
@@ -147,7 +161,7 @@ h1 {
 
 h4 {
   margin-left: 4%;
-  font-family: "Helvetica Now Display";
+  font-family: "Inter";
   font-weight: 400;
   font-size: 24px;
   line-height: 40px;
@@ -159,7 +173,7 @@ h4 {
 }
 
 h3 {
-  font-family: "Helvetica Now Display", "Inter";
+  font-family: "Inter";
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -169,22 +183,20 @@ h3 {
 }
 
 h6 {
-  font-family: "Helvetica Now Display", "Inter";
+  font-family: "Inter";
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 28px;
-  letter-spacing: 0.04em;
   color: #3F3F3F;
 }
 
 .skills p {
-  font-family: "Helvetica Now Display", "Inter";
+  font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 22px;
-  letter-spacing: 0.04em;
   color: #BABABA;
 }
 
@@ -216,7 +228,7 @@ a {
 .port p {
   font-size: 12px;
   margin-bottom: 0;
-  font-family: "Helvetica Now Display", "Inter";
+  font-family: "Inter";
   font-style: normal;
   font-weight: 700;
   line-height: 26px;
@@ -224,11 +236,10 @@ a {
 
 .port a {
   font-size: 12px;
-  font-family: "Helvetica Now Display", "Inter";
+  font-family: "Inter";
   font-style: normal;
   font-weight: 700;
   line-height: 18px;
-  letter-spacing: 0.02em;
   color: #7F7F7F;
 }
 
@@ -239,42 +250,40 @@ a {
 .btn-descarga {
   width: 145px;
   height: 39px;
-  background: #A2A2A2;
+  background: #222222;
   border-radius: 74.2857px;
 }
 .btn-descarga a {
-  color: #0D0D0D;
+  color: #FFFFFF;
   font-size: 16px;
   font-style: normal;
   font-weight: 700;
   line-height: 37px;
-  font-family: "Helvetica Now Display", "inter";
+  font-family: "inter";
 }
 
 .btn-descarga:hover {
-  background: #FFFFFF;
+  background: linear-gradient(121.68deg, #BB62F1 2.56%, #EE4B60 46.53%, #E07D8A 88.89%);
 }
 .btn-descarga:hover a {
-  color: #0D0D0D;
+  color: #FFFFFF;
 }
 
 .casos h6 {
-  font-family: "Helvetica Now Display", "Inter";
+  font-family: "Inter";
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
   line-height: 26px;
-  letter-spacing: 0.02em;
   color: #BABABA;
 }
 
 .casos p {
-  font-family: "Helvetica Now Display", "Inter";
+  font-family: "Inter";
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 26px;
-  letter-spacing: 0.02em;
   color: #BABABA;
 }
 
@@ -283,32 +292,29 @@ a {
 }
 
 .portfolio, a {
-  font-family: "Helvetica Now Display", "Inter";
+  font-family: "Inter";
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 28px;
-  letter-spacing: 0.04em;
   color: #BABABA;
 }
 
 .portfolio p {
-  font-family: "Helvetica Now Display", "Inter";
+  font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 28px;
-  letter-spacing: 0.04em;
   color: #BABABA;
 }
 
 .click {
-  font-family: "Helvetica Now Display", "Inter";
+  font-family: "Inter";
   font-style: normal;
   font-weight: 700;
   font-size: 12px;
   line-height: 18px;
-  letter-spacing: 0.02em;
   color: #7F7F7F;
 }
 
@@ -316,22 +322,20 @@ a {
   margin-top: 12%;
 }
 .metodologias h6 {
-  font-family: "Helvetica Now Display", "Inter";
+  font-family: "Inter";
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
   line-height: 26px;
-  letter-spacing: 0.02em;
   color: #BABABA;
   margin-bottom: 5%;
 }
 .metodologias p {
-  font-family: "Helvetica Now Display", "Inter";
+  font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 28px;
-  letter-spacing: 0.04em;
   color: #BABABA;
 }
 
@@ -340,7 +344,7 @@ a {
 }
 
 .mas-proy h5 {
-  font-family: "Helvetica Now Display", "Inter";
+  font-family: "Inter";
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
@@ -350,12 +354,11 @@ a {
 }
 
 .mas-proy a {
-  font-family: "Helvetica Now Display", "Inter";
+  font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 20px;
-  letter-spacing: 0.04em;
   color: #BABABA;
   margin-bottom: 30%;
 }
@@ -366,19 +369,24 @@ a {
 }
 
 .hola {
-  font-family: "Helvetica Now Display", "Inter";
+  font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
   line-height: 14px;
   text-align: center;
-  letter-spacing: 0.04em;
   color: #BABABA;
   margin-bottom: 5%;
 }
 
 .margin-tec {
   margin-top: 10%;
+}
+
+.portfolio-img {
+  margin-top: 10%;
+  margin-bottom: 5%;
+  width: 50%;
 }
 
 @media (min-width: 320px) and (max-width: 990px) {
@@ -415,5 +423,18 @@ a {
   }
   .contact a {
     margin-bottom: 5%;
+  }
+  .img-skills-mobile {
+    width: 80%;
+    margin-bottom: 10%;
+  }
+  .ux-icon {
+    width: 85%;
+  }
+  .portfolio-img {
+    width: 75%;
+  }
+  .preauth {
+    width: 35%;
   }
 }/*# sourceMappingURL=styles.css.map */

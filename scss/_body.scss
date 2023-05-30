@@ -1,10 +1,10 @@
 @import "colors";
-@import "fonts";
+
 
 
 body, html {
     background:$bg-black;
-    font-family:$principal-font, 'Inter';
+    font-family:'Inter';
     height: auto;
 
 }
@@ -34,7 +34,7 @@ hr {width: 329px;
 
 h1{margin-top: 10%;
     margin-left: 4%;
-    font-family: $principal-font, 'Inter';
+    font-family:'Inter';
     font-style: normal;
     font-weight: 800;
     font-size: 48px;
@@ -43,7 +43,7 @@ h1{margin-top: 10%;
 }
 
 h4{margin-left: 4%;
-    font-family: $principal-font;
+    font-family:'Inter';
     font-weight: 400;
     font-size: 24px;
     line-height: 40px;
@@ -53,7 +53,7 @@ h4{margin-left: 4%;
     margin-top: 5%;
 }
 
-h3{font-family: $principal-font, 'Inter';
+h3{font-family:'Inter';
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
@@ -64,21 +64,19 @@ h3{font-family: $principal-font, 'Inter';
 
 
 
-h6{font-family: 'Helvetica Now Display','Inter';
+h6{font-family:'Inter';
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 28px;
-    letter-spacing: 0.04em;
 color: #3F3F3F;
 }
 
-.skills p{font-family: 'Helvetica Now Display', 'Inter';
+.skills p{font-family:  'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 22px;
-    letter-spacing: 0.04em;
     color: #BABABA;}
 
 .margin{margin-bottom: 30%;}
@@ -97,7 +95,7 @@ color: #070707;}
 
 .port p{font-size: 12px;
 margin-bottom: 0;
-font-family: 'Helvetica Now Display', 'Inter';
+font-family:  'Inter';
 font-style: normal;
 font-weight: 700;
 line-height: 26px;
@@ -105,11 +103,10 @@ line-height: 26px;
 }
 
 .port a{font-size: 12px;
-    font-family: 'Helvetica Now Display', 'Inter';
+    font-family:  'Inter';
     font-style: normal;
     font-weight: 700;
     line-height: 18px;
-    letter-spacing: 0.02em;
     color: #7F7F7F;
 }
 
@@ -117,96 +114,90 @@ line-height: 26px;
 
 .btn-descarga{width: 145px;
     height: 39px;
-    background: #A2A2A2;
+    background: #222222;
     border-radius: 74.2857px;
-        a{color: #0D0D0D;
+        a{color: #FFFFFF;
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
     line-height: 37px;
-    font-family: 'Helvetica Now Display', 'inter';
+    font-family:  'inter';
     
 
 
         }
 }
 
-.btn-descarga:hover{background: #FFFFFF;
-    a{color: #0D0D0D ;
-
+.btn-descarga:hover{background: linear-gradient(121.68deg, #BB62F1 2.56%, #EE4B60 46.53%, #E07D8A 88.89%);
+    a{color: #FFFFFF ;
     }
+    
 }
 
-.casos h6{font-family: 'Helvetica Now Display', 'Inter';
+.casos h6{font-family:  'Inter';
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
     line-height: 26px;
-    letter-spacing: 0.02em;
     color: #BABABA;
 }
-.casos p{font-family: 'Helvetica Now Display', 'Inter';
+.casos p{font-family:  'Inter';
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 26px;
-    letter-spacing: 0.02em;
     color: #BABABA;}
 
 .casos{margin-bottom: 8%;
 }
 
-.portfolio,a{font-family: 'Helvetica Now Display', 'Inter';
+.portfolio,a{font-family:  'Inter';
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 28px;
-    letter-spacing: 0.04em;
     color: #BABABA;
     }
 
-.portfolio p{font-family: 'Helvetica Now Display', 'Inter';
+.portfolio p{font-family:  'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 28px;
-    letter-spacing: 0.04em;
     color: #BABABA;
     }
 
 
-.click {font-family: 'Helvetica Now Display', 'Inter';
+.click {font-family:  'Inter';
 font-style: normal;
 font-weight: 700;
 font-size: 12px;
 line-height: 18px;
-letter-spacing: 0.02em;
 color: #7F7F7F;
 }
 
 .metodologias{margin-top: 12%;
-    h6{font-family: 'Helvetica Now Display', 'Inter';
+    h6{font-family:  'Inter';
         font-style: normal;
         font-weight: 700;
         font-size: 20px;
         line-height: 26px;
-        letter-spacing: 0.02em;
         color: #BABABA;
         margin-bottom: 5%;
         }
-    p{font-family: 'Helvetica Now Display', 'Inter';
+    p{font-family:  'Inter';
         font-style: normal;
         font-weight: 400;
         font-size: 16px;
         line-height: 28px;
-        letter-spacing: 0.04em;
+
         color: #BABABA;
         }
 }
 
 .metodologias-row{margin-bottom: 8%;}
 
-.mas-proy h5{font-family: 'Helvetica Now Display', 'Inter';
+.mas-proy h5{font-family:  'Inter';
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
@@ -215,12 +206,11 @@ color: #7F7F7F;
     margin-bottom: 2%;
     }
 
-.mas-proy a{font-family: 'Helvetica Now Display', 'Inter';
+.mas-proy a{font-family:  'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 20px;
-    letter-spacing: 0.04em;
     color: #BABABA;
     margin-bottom: 30%;
 }
@@ -229,18 +219,39 @@ color: #7F7F7F;
     padding-bottom: 100px;
 }
 
-.hola{font-family: 'Helvetica Now Display', 'Inter';
+.hola{font-family:  'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
     line-height: 14px;
     text-align: center;
-    letter-spacing: 0.04em;
     color: #BABABA;
 margin-bottom: 5%;}
 
 .margin-tec{margin-top: 10%;
 }
+
+.portfolio-img{margin-top: 10%;
+margin-bottom: 5%;
+width: 50%;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 //mediaQuery//
 
@@ -274,10 +285,18 @@ height: auto;}
 .mobile-no{display: none;}
 
 .contact{flex-direction: column;
-   a{margin-bottom: 5%;
+    a{margin-bottom: 5%;
     }
 }
 
 
+.img-skills-mobile{width: 80%;
+margin-bottom: 10%;}
+
+.ux-icon{width: 85%;}
+
+.portfolio-img{width: 75%;}
+
+.preauth{width: 35%;}
 
 }
