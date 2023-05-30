@@ -1,5 +1,4 @@
 @import "colors";
-@import "fonts";
 
 * {
     margin-top: 0px;
@@ -12,7 +11,7 @@
 
 #body-index, #html-index {
     background:$bg-black;
-    font-family:$principal-font, 'Inter';
+    font-family:'Inter';
     height: auto;
 
 }
@@ -20,27 +19,25 @@
 .img-principal{margin-top: 3%;
 }
 
-.about-me{font-family: 'Helvetica Now Display', 'Inter';
+.about-me{font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 28px;
-    letter-spacing: 0.04em;
     color: #BABABA;
     }
 
-.ux-icon{margin-top: 25%;
+.ux-icon{
     width: 631.01px;
     height: 58.5px;}
 
-.skills-m{margin-left: 10%;}
 
-.tools li{font-family: 'Helvetica Now Display', "inter";
+
+.tools li{font-family: "inter";
     font-style: normal;
     font-weight: 500;
     font-size: 14.7616px;
     line-height: 28px;
-    letter-spacing: 0.04em;
     color: #BABABA;
     list-style: none;
     }
@@ -49,8 +46,22 @@
 margin-bottom: 10%;}
 
 
+.color-span {
+    background: linear-gradient(111.19deg, #BB62F1 13.97%, #EE4B60 83.79%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+font-weight: bold;
+} 
 
 
+.hola-index{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 100%;
+    color: #A2A2A2;
+}
 
-
-
+.contenedor-skills{margin-top: 10%;}
